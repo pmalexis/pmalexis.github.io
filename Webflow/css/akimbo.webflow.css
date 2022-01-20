@@ -240,12 +240,15 @@
 
 .home-sectionhero {
   position: relative;
+  overflow: hidden;
   padding-top: 327px;
   padding-bottom: 325px;
   background-color: #000;
 }
 
 .home-sectionhero-containertext {
+  position: relative;
+  z-index: 1;
   text-align: center;
 }
 

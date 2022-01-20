@@ -17,3 +17,25 @@
     }
 
 }
+
+.home-sectionhero-imgp{
+    transition: filter 0.25s ease;
+    &:nth-child(1){
+        filter: opacity(100%);
+    }
+    &:nth-child(2){
+        filter: opacity(0%);
+    }
+}
+.home-sectionhero-elimg{
+    &:hover{
+        .home-sectionhero-imgp{
+            &:nth-child(1){
+                filter: opacity(0%);
+            }
+            &:nth-child(2){
+                filter: opacity(100%);
+            }
+        }
+    }
+}
