@@ -1,0 +1,296 @@
+.wrapper-12 {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrapper-12.uikit-wrapper-12 {
+  height: 100px;
+  background-color: #f0f0f0;
+}
+
+.wrapper-12.uikit-wrapper-el {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.wrapper-10 {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 0px;
+}
+
+.wrapper-10.uikit-wrapper-10 {
+  height: 100px;
+  background-color: #f0f0f0;
+}
+
+.wrapper-8 {
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wrapper-8.uikit-wrapper-8 {
+  height: 100px;
+  background-color: #f0f0f0;
+}
+
+.colorprimary-1-bg {
+  background-color: #f43b00;
+}
+
+.colorprimary-1-bg.uikit-color-bg {
+  width: 95px;
+  height: 95px;
+  border: 1px solid #000;
+}
+
+.colorprimary-2-bg {
+  background-color: #000;
+}
+
+.colorprimary-2-bg.uikit-color-bg {
+  width: 95px;
+  height: 95px;
+  border: 1px solid #000;
+}
+
+.colorprimary-3-bg {
+  background-color: #fff;
+}
+
+.colorprimary-3-bg.uikit-color-bg {
+  width: 95px;
+  height: 95px;
+  border: 1px solid #000;
+}
+
+.colorprimary-4-bg {
+  background-color: #dd3500;
+}
+
+.colorprimary-4-bg.uikit-color-bg {
+  width: 95px;
+  height: 95px;
+  border: 1px solid #000;
+}
+
+.colorgrey-1-bg {
+  background-color: #444549;
+}
+
+.colorgrey-1-bg.uikit-color-bg {
+  width: 95px;
+  height: 95px;
+}
+
+.colorgrey-2-bg {
+  background-color: #87898f;
+}
+
+.colorgrey-2-bg.uikit-color-bg {
+  width: 95px;
+  height: 95px;
+}
+
+.colorgrey-3-bg {
+  background-color: #cacbcf;
+}
+
+.colorgrey-3-bg.uikit-color-bg {
+  width: 95px;
+  height: 95px;
+}
+
+.colorgrey-4-bg {
+  width: 95px;
+  height: 95px;
+  background-color: #f0f0f0;
+}
+
+.h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Linotype avenir next georgian', sans-serif;
+  font-size: 100px;
+  line-height: 110%;
+}
+
+.h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Linotype avenir next georgian', sans-serif;
+  font-size: 62px;
+  line-height: 110%;
+}
+
+.h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Linotype avenir next georgian', sans-serif;
+  font-size: 36px;
+  line-height: 130%;
+}
+
+.h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Linotype avenir next georgian', sans-serif;
+  font-size: 24px;
+  line-height: 110%;
+}
+
+.h5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Linotype avenir next georgian', sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Linotype avenir next georgian', sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.paragraph-huge {
+  margin-bottom: 0px;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.paragraph-big {
+  margin-bottom: 0px;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.paragraph-normal {
+  margin-bottom: 0px;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.paragraph-small {
+  margin-bottom: 0px;
+  font-family: Inter, sans-serif;
+  line-height: 150%;
+}
+
+.extra-1 {
+  font-family: 'Nicky laatz summer loving', sans-serif;
+  font-size: 184px;
+  line-height: 100%;
+}
+
+.text-block-2 {
+  font-family: 'Jen wagner co', sans-serif;
+  font-size: 124px;
+  line-height: 100%;
+}
+
+.colorprimary-1 {
+  color: #f43b00;
+}
+
+.colorprimary-2 {
+  color: #000;
+}
+
+.colorprimary-3 {
+  color: #fff;
+}
+
+.colorprimary-4 {
+  color: #dd3500;
+}
+
+.colorgrey-1 {
+  color: #87898f;
+}
+
+.colorgrey-3 {
+  color: #cacbcf;
+}
+
+.colorgrey-4 {
+  color: #f0f0f0;
+}
+
+.home-sectionhero {
+  position: relative;
+  padding-top: 327px;
+  padding-bottom: 325px;
+  background-color: #000;
+}
+
+.home-sectionhero-containertext {
+  text-align: center;
+}
+
+.home-sectionhero-containerimg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.home-sectionhero-elimg {
+  position: absolute;
+  width: 256px;
+  height: 384px;
+}
+
+.home-sectionhero-imgp {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@font-face {
+  font-family: 'Linotype avenir next georgian';
+  src: url('../fonts/Linotype---Avenir-Next-Georgian-ExtraBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nicky laatz summer loving';
+  src: url('../fonts/Nicky-Laatz---Summer-Loving-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Jen wagner co';
+  src: url('../fonts/Jen-Wagner-Co.---Palmer-Lake-Print-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

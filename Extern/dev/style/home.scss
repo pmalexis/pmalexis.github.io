@@ -1,0 +1,19 @@
+.home-sectionhero-elimg{
+    &:nth-child(1){
+        right: calc(50% + 450px);
+        bottom: calc(50% + 30px);
+    }
+    &:nth-child(2){
+        left: calc(50% + 30px);
+        bottom: calc(50% + 300px);
+    }
+    &:nth-child(3){
+        left: calc(50% + 500px);
+        top: calc(50% - 200px);
+    }
+    &:nth-child(4){
+        top: calc(50% + 300px);
+        right: calc(50% + 150px);
+    }
+
+}
