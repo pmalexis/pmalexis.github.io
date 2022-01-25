@@ -120,3 +120,6 @@ sectionHero.classList.add('style-ready');
 section1TabActive.click();
 section7QuoteActive.classList.add('style-show'); 
 section9TabActive.click();
+window.addEventListener('load', function() {
+    console.log('test on load');
+});
