@@ -9,6 +9,17 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/Extern\/dev\/script\/home.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/Extern\/prod\/home-min.js",
+      "oF" : 2,
+      "sC" : 0,
+      "tS" : 0
+    },
     "\/Extern\/dev\/style\/common.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -65,6 +76,17 @@
       "oAP" : "\/Extern\/prod\/common-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/Extern\/prod\/home-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/Extern\/prod\/home-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/Webflow\/css\/akimbo.webflow.css" : {
       "aP" : 1,
@@ -152,6 +174,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Webflow\/images\/1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Webflow\/images\/2.png" : {
       "ft" : 32768,
       "iS" : 398000,
@@ -164,6 +196,26 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/Webflow\/images\/2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/Webflow\/images\/4.png" : {
       "ft" : 32768,
@@ -178,11 +230,94 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Webflow\/images\/4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/5.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/5.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/6.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/6.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/arrow-1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/arrow-1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/arrow-left.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/arrow-left.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/arrow-right.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/arrow-right.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Webflow\/images\/Effect-hover.png" : {
       "ft" : 32768,
       "iS" : 454673,
       "oA" : 0,
       "oAP" : "\/Webflow\/images\/Effect-hover.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/Ellipse-17.png" : {
+      "ft" : 32768,
+      "iS" : 69239,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/Ellipse-17.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -199,6 +334,279 @@
       "oAP" : "\/Webflow\/images\/favicon.ico",
       "oF" : 0
     },
+    "\/Webflow\/images\/Group.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/Group.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/icn-1_1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/icn-1_1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/icn-1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/icn-1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/icn-2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/icn-2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/icn-3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/icn-3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/icn-4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/icn-4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/icn-5.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/icn-5.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/icn-6.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/icn-6.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/icn.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/icn.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/Icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/Icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/illu-1.png" : {
+      "ft" : 32768,
+      "iS" : 32929,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/illu-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/illu-1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/illu-1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/illu-2.png" : {
+      "ft" : 32768,
+      "iS" : 44682,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/illu-2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/illu-3.png" : {
+      "ft" : 32768,
+      "iS" : 58533,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/illu-3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/illu.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/illu.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/img-1-p-500.png" : {
+      "ft" : 32768,
+      "iS" : 251554,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/img-1-p-500.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/img-1-p-800.png" : {
+      "ft" : 32768,
+      "iS" : 553600,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/img-1-p-800.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/img-1-p-1080.png" : {
+      "ft" : 32768,
+      "iS" : 900223,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/img-1-p-1080.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/img-1.png" : {
+      "ft" : 32768,
+      "iS" : 940414,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/img-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/Img-p-500.png" : {
+      "ft" : 32768,
+      "iS" : 285151,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/Img-p-500.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/Img-p-800.png" : {
+      "ft" : 32768,
+      "iS" : 661523,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/Img-p-800.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/Img.png" : {
+      "ft" : 32768,
+      "iS" : 1086878,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/Img.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/Le_Parisien_logo-1.png" : {
+      "ft" : 32768,
+      "iS" : 3047,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/Le_Parisien_logo-1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/linkedin.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/linkedin.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Webflow\/images\/Photo.png" : {
       "ft" : 32768,
       "iS" : 239530,
@@ -211,6 +619,39 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/Webflow\/images\/play.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/play.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Webflow\/images\/Rectangle-2884.png" : {
+      "ft" : 32768,
+      "iS" : 86058,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/images\/Rectangle-2884.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Webflow\/images\/Vector.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Webflow\/images\/Vector.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/Webflow\/images\/webclip.png" : {
       "ft" : 32768,
