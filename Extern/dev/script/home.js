@@ -116,9 +116,7 @@ let sectionHero = document.querySelector('.home-sectionhero');
 let section1TabActive = document.querySelector('.home-section1-tab:nth-child(1)');
 let section7QuoteActive = document.querySelector('.home-section7-quote:nth-child(1)');
 let section9TabActive = document.querySelector('.home-section9-tab:nth-child(1)');
-window.addEventListener('load', function() {
-    sectionHero.classList.add('style-ready');
-    section1TabActive.click();
-    section7QuoteActive.classList.add('style-show'); 
-    section9TabActive.click();
-});
+sectionHero.classList.add('style-ready');
+section1TabActive.click();
+section7QuoteActive.classList.add('style-show'); 
+section9TabActive.click();
