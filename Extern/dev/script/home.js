@@ -122,4 +122,5 @@ section7QuoteActive.classList.add('style-show');
 section9TabActive.click();
 window.addEventListener('load', function() {
     console.log('test on load');
+    console.log('test on load 2');
 });
