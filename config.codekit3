@@ -14,8 +14,30 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/Extern\/prod\/bootcamp-min.js",
+      "oF" : 2,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/Extern\/dev\/script\/common-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/Extern\/dev\/script\/common-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/Extern\/dev\/script\/common.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/Extern\/prod\/common-min.js",
       "oF" : 2,
       "sC" : 3,
       "tS" : 0
@@ -36,7 +58,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/Extern\/prod\/home-min.js",
       "oF" : 2,
       "sC" : 0,
@@ -132,13 +154,13 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/Extern\/prod\/bootcamp-min.js" : {
+    "\/Extern\/prod\/common-min.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/Extern\/prod\/bootcamp-min-min.js",
+      "oAP" : "\/Extern\/prod\/common-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -154,17 +176,6 @@
       "oAP" : "\/Extern\/prod\/common-min.css",
       "oF" : 0,
       "pg" : 0
-    },
-    "\/Extern\/prod\/home-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/Extern\/prod\/home-min-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
     },
     "\/Webflow\/404.html" : {
       "cB" : 0,

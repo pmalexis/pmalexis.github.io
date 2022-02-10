@@ -1,5 +1,3 @@
-// @codekit-prepend 'header.js'
-
 let section1Tabs = document.querySelectorAll('.home-section1-tab');
 let section1Bar = document.querySelector('.home-section1-slider');
 section1Tabs.forEach(function (section1Tab, index) {
