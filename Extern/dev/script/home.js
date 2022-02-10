@@ -142,9 +142,11 @@ window.addEventListener('load', function() {
         scrollpos = window.scrollY;
         if(scrollpos > (section3Pos - (windowHeight / 2))){
             section3.classList.add("style-black");
+            document.querySelector('.home-section2').classList.add("style-black");
         }
         else {
             section3.classList.remove("style-black");
+            document.querySelector('.home-section2').classList.remove("style-black");
         }
     });
 });
