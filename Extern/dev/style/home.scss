@@ -1,28 +1,67 @@
+
+/* SECTION HERO */
+.home-sectionhero{
+    .h1{
+        position: relative;
+        z-index: 1;
+    }
+    .extra-1{
+        display: inline-block;
+        position: relative;
+        transform: scaleX(1.05);
+        transition: transform 1s cubic-bezier(0.440, 0.000, 0.010, 1.000);
+        &:before{
+            content:'';
+            position: absolute;
+            top: 0%;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            background-color: #000;
+            transition: transform 1s cubic-bezier(0.440, 0.000, 0.010, 1.000);
+            transform: translateX(0%);
+        }
+    }
+    p{
+        position: relative;
+        z-index: 1;
+    }
+}
 .home-sectionhero-elimg{
     &:nth-child(1){
-        right: calc(50% + 450px);
-        bottom: calc(50% + 30px);
+        right: calc(50% + 430px);
+        bottom: calc(50% - 20px);
     }
     &:nth-child(2){
         left: calc(50% + 30px);
-        bottom: calc(50% + 300px);
+        bottom: calc(50% + 225px);
     }
     &:nth-child(3){
         left: calc(50% + 500px);
-        top: calc(50% - 200px);
+        top: calc(50% - 150px);
     }
     &:nth-child(4){
-        top: calc(50% + 300px);
+        top: calc(50% + 175px);
         right: calc(50% + 150px);
     }
 
     opacity: 0;
     transform: translateY(200px) skewY(10deg);
     transition: transform 1500ms cubic-bezier(0.540, 0.005, 0.000, 1.000), opacity 2s ease;
-}
 
+    &.style-ready {
+        transition: all 100ms ease;
+        transition-delay: 0s !important;
+    }
+}
 .home-sectionhero{
     &.style-ready{
+        .extra-1{
+            transform: scaleX(1);
+            &:before{
+                transform: translateX(100%);
+            }
+        }
         .home-sectionhero-elimg{
             &:nth-child(1){
                 transition-delay: 0.1s;
@@ -41,7 +80,6 @@
         }
     }
 }
-
 .home-sectionhero-imgp{
     transition: filter 0.25s ease;
     &:nth-child(1){
@@ -64,20 +102,43 @@
     }
 }
 
-
+/* SECTION 1 */
 .home-section1-tab{
     transition: color 0.25s ease;
     &.style-active{
         color: #000000;
     }
 }
+.home-section1-illu{
+    display: none;
+    &.style-show{
+        display: block;
+    }
+}
+.home-section1-content{
+    display: none;
 
+    &.style-show{
+        display: block;
+    }
+}
+
+/* SECTION 2 */
 .home-section2{
-    overflow: initial;
+    position: relative;
+    padding-top: 375px !important;
+    transition: background-color 0.5s ease;
+    &.style-black{
+        background-color: #000;
+    }
+}
+.home-section2-sticky{
+    position: sticky;
+    top: 50vh;
+    transform: translateY(-50%);
+    overflow: hidden;
 }
 .home-section2-slider{
-    position: sticky;
-    top: 120px;
     display: inline-flex;
 }
 .home-section1-slider{
@@ -89,19 +150,72 @@
         transform: translateY(100%);
     }
 }
-.home-section1-content{
-    display: none;
-
-    &.style-show{
-        display: block;
-    }
-}
-
 @keyframes floatation {
     0% { transform: rotate(0deg) translateX(10px) rotate(0deg); }
     100%{ transform: rotate(360deg) translateX(10px) rotate(-360deg); }
 }
 
+/* SECTION 3 */
+.home-section3{
+    transition: background-color 0.5s ease;
+    
+    .home-section3-titleicnblack{
+        display: block;
+    }
+    .home-section3-titleicnwhite{
+        display: none;
+    }
+
+    h2{
+        transition: color 0.5s ease;
+    }
+
+    .home-section3-containertitle {
+        p{
+            transition: color 0.5s ease;
+        }
+    }
+
+    .home-section3-eltext{
+        h3{
+            transition: color 0.5s ease;
+        }
+        p{
+            transition: color 0.5s ease;
+        }
+    }
+
+    &.style-black{
+        background-color: #000;
+
+        h2{
+            color: #FFF;
+        }
+        .home-section3-titleicnblack{
+            display: none;
+        }
+        .home-section3-titleicnwhite{
+            display: block;
+        }
+
+        .home-section3-containertitle {
+            p{
+                color: #CACBCF;
+            }
+        }
+
+        .home-section3-eltext{
+            h3{
+                color: #FFF;
+            }
+            p{
+                color: #CACBCF;
+            }
+        }
+    }
+}
+
+/* SECTION 5 */
 .home-section5-containerillu{
     img{
         
@@ -129,7 +243,7 @@
     }
 }
 
-
+/* SECTION 6 */
 .home-section6-el{
     .home-section6-elvideo{
         visibility: hidden;
@@ -144,6 +258,7 @@
     }
 }
 
+/* SECTION 7 */
 .home-section7{
    .home-section7-quote{
         display: none;
@@ -151,12 +266,34 @@
             display: block;
         }
     }
+    .home-section7-containerbtn {
+        transition: all 0.25s ease;
+        &:hover {
+            opacity: .7;
+        }
+    } 
 }
-
 .home-section7-containerbtn{
     user-select: none;
 }
 
+/* SECTION 7 */
+.home-section8{
+    .home-section8-containerbtn {
+        transition: all 0.25s ease;
+        &:hover {
+            opacity: .7;
+        }       
+    }
+    .home-section8-play {
+        transition: all 0.25s ease;
+        &:hover {
+            opacity: .7;
+        }
+    }
+}
+
+/* SECTION 9 */
 .home-section9-tab{
     &.style-active{
         h3{
@@ -173,10 +310,54 @@
         transform: translateX(100%);
     }
 }
-
 .home-section9-list{
     display: none;
     &.style-show{
         display: block;
     }
+    .home-section9-item {
+        transition: all 0.25s ease;
+        &:hover {
+            opacity: .7;
+        }
+    }
 }
+
+
+/* SECTION 11 */
+.home-section11-el{
+    &:nth-child(1){
+        right: calc(50% + 450px);
+        top: calc(50% - 200px);
+    }
+    &:nth-child(2){
+        left: calc(50% + 50px);
+        bottom: calc(50% + 120px);
+    }
+    &:nth-child(3){
+        left: calc(50% + 500px);
+        top: calc(50% + 50px);
+    }
+
+    &:hover{
+        .home-section11-img{
+            &:nth-child(1){
+                filter: opacity(0%);
+            }
+            &:nth-child(2){
+                filter: opacity(100%);
+            }
+        }
+    }
+}
+
+.home-section11-img{
+    transition: filter 0.25s ease;
+    &:nth-child(1){
+        filter: opacity(100%);
+    }
+    &:nth-child(2){
+        filter: opacity(0%);
+    }
+}
+

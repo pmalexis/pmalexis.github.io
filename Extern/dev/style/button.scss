@@ -1,0 +1,6 @@
+.button-normal{
+    transition: background-color 0.25s ease;
+    &:hover{
+        background-color: #DD3500;
+    }
+}
