@@ -1,0 +1,17 @@
+.sticky-nav {
+    transition: all 0.25s ease;
+    .header-logo,
+    .header-link {
+        transition: all 0.25s ease;
+    }
+
+    &.style-scroll {
+        background-color: #FFFFFF;
+        .header-logo {
+            filter: invert(1);
+        }
+        .header-link {
+            color: #000000;
+        }
+    }
+}

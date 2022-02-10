@@ -1,3 +1,5 @@
+// @codekit-prepend 'header.js'
+
 let section1Tabs = document.querySelectorAll('.home-section1-tab');
 let section1Bar = document.querySelector('.home-section1-slider');
 section1Tabs.forEach(function (section1Tab, index) {
@@ -123,6 +125,12 @@ window.addEventListener('load', function() {
     section1TabActive.click();
     section7QuoteActive.classList.add('style-show'); 
     section9TabActive.click();
+
+    setTimeout(function(){
+        sectionHero.querySelectorAll('.home-sectionhero-elimg').forEach(function (elImg) {
+            elImg.classList.add('style-ready');
+        });
+    }, 1200);
 
     /* SCROLL ANM */
     let scrollpos = window.scrollY;
