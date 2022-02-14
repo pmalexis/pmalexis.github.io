@@ -111,6 +111,49 @@ if( document.querySelector('.home-sectionhero') ) {
         });
     });
 
+    let section6 = document.querySelectorAll('.home-section6');
+    section6.forEach(function (section) {
+        section.querySelectorAll('.home-section6-el').forEach(function (el, index) {
+            if(index != 0) {
+                let iframe = el.querySelector('iframe');
+                let player = new Vimeo.Player(iframe);
+                el.querySelector('.home-section6-elbtn').addEventListener('click', function () {
+                    setTimeout(function(){
+                        section.querySelectorAll('.home-section6-el').forEach(function (r) {
+                            r.classList.remove('style-video');
+                        });
+                        el.classList.add('style-video');
+                        player.play();
+                    }, 100);
+                });
+                el.addEventListener('click', function () {
+                    if (this.classList.contains('style-video')) {
+                        this.classList.remove('style-video');
+                        player.pause();
+                    }
+                });
+            }
+        });  
+    });
+
+    let section8 = document.querySelectorAll('.home-section8');
+    section8.forEach(function (section) {
+        let iframe = section.querySelector('iframe');
+        let player = new Vimeo.Player(iframe);
+        section.querySelector('.home-section8-play').addEventListener('click', function () {
+            setTimeout(function(){
+                section.querySelector('.home-section8-containervideo').classList.add('style-video');
+                player.play();
+            }, 100);
+        });
+        section.querySelector('.home-section8-containervideo').addEventListener('click', function () {
+            if (this.classList.contains('style-video')) {
+                this.classList.remove('style-video');
+                player.pause();
+            }
+        });     
+    });
+
     /* ON LOAD */
     window.addEventListener('load', function() {
         let sectionHero = document.querySelector('.home-sectionhero');
