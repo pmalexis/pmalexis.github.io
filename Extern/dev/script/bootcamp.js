@@ -1,4 +1,7 @@
 if( document.querySelector('.bootcamp-section1') ) {
+    document.querySelector('#nav').classList.add('style-scroll');
+
+    
     let sectionhero = document.querySelectorAll('.bootcamp-sectionhero');
     sectionhero.forEach(function (section) {
         let iframe = section.querySelector('iframe');
