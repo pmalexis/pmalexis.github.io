@@ -58,7 +58,9 @@ if( document.querySelector('.home-sectionhero') ) {
 
         
     }
-    slideHorizontalScroll();
+    if (window.matchMedia("(min-width: 767px)").matches) {
+        slideHorizontalScroll();
+    };
 
     let section7Btn = document.querySelectorAll('.home-section7-containerbtn');
     let section7Count = 1;

@@ -29,21 +29,45 @@
 }
 .home-sectionhero-elimg{
     &:nth-child(1){
-        right: calc(50% + 430px);
-        bottom: calc(50% - 20px);
+        @media screen and (min-width: 767px){
+            right: calc(50% + 430px);
+            bottom: calc(50% - 20px);
+        }
+        @media screen and (max-width: 767px){
+            right: calc(50% + 110px);
+            bottom: calc(50% + 100px);
+        }
     }
     &:nth-child(2){
-        left: calc(50% + 30px);
-        bottom: calc(50% + 225px);
+        @media screen and (min-width: 767px){
+            left: calc(50% + 30px);
+            bottom: calc(50% + 225px);
+        }
+        @media screen and (max-width: 767px){
+            left: calc(50% + 80px);
+            bottom: calc(50% - 350px);
+        }
     }
-    &:nth-child(3){
-        left: calc(50% + 500px);
-        top: calc(50% - 150px);
+    &:nth-child(3){        
+        @media screen and (min-width: 767px){
+            left: calc(50% + 500px);
+            top: calc(50% - 150px);
+        }
+        @media screen and (max-width: 767px){
+            display: none;
+        }
     }
     &:nth-child(4){
-        top: calc(50% + 175px);
-        right: calc(50% + 150px);
+        @media screen and (min-width: 767px){
+            top: calc(50% + 175px);
+            right: calc(50% + 150px);
+        }
+        @media screen and (max-width: 767px){
+            display: none;
+        }
     }
+
+    
 
     opacity: 0;
     transform: translateY(200px) skewY(10deg);
@@ -122,6 +146,26 @@
         display: block;
     }
 }
+.home-section1-slider{
+    transition: transform 0.25s ease;
+    &.style-active1{
+        transform: translateY(0%);
+    }
+    &.style-active2{
+        transform: translateY(100%);
+    }
+    @media screen and (min-width: 767px){
+        display: inline-flex;
+    }
+    @media screen and (max-width: 767px){
+        display: block;
+    }
+}
+@media screen and (max-width: 767px){
+    .home-section1-elcontainernum{
+        bottom: calc(100% + 20px);
+    }
+}
 
 /* SECTION 2 */
 .home-section2{
@@ -141,13 +185,17 @@
 .home-section2-slider{
     display: inline-flex;
 }
-.home-section1-slider{
-    transition: transform 0.25s ease;
-    &.style-active1{
-        transform: translateY(0%);
-    }
-    &.style-active2{
-        transform: translateY(100%);
+.home-section2-containerlist{
+    @media screen and (max-width: 767px){
+        width: calc(100% + 50px);
+        margin-left: -25px;
+        padding: 0px 25px 0px 25px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        .home-section2-list{
+            display: inline-flex;
+            flex-wrap: nowrap;
+        }
     }
 }
 @keyframes floatation {
@@ -289,6 +337,32 @@
         }
     }
 }
+@media screen and (max-width: 767px){
+    .home-section6-containerel{
+        display: inline-flex;
+        flex-wrap: nowrap;
+    }
+    .home-section6-containerslider{
+        margin-top: 50px;
+        width: calc(100% + 50px);
+        margin-left: -25px;
+        padding: 0px 25px 0px 25px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .home-section6-el{
+        &:first-child{
+            display: none;
+        }
+        
+        &:not(:last-child){
+            margin-right: 18px;
+        }
+        &:last-child{
+            margin-right: 25px;
+        }
+    }
+}
 
 /* SECTION 7 */
 .home-section7{
@@ -391,17 +465,35 @@
 /* SECTION 11 */
 .home-section11-el{
     &:nth-child(1){
-        right: calc(50% + 450px);
-        top: calc(50% - 200px);
+        @media screen and (min-width: 767px){
+            right: calc(50% + 450px);
+            top: calc(50% - 200px);
+        }
+        @media screen and (max-width: 767px){
+            right: calc(50% + 110px);
+            bottom: calc(50% + 100px);
+        }
     }
     &:nth-child(2){
-        left: calc(50% + 50px);
-        bottom: calc(50% + 120px);
+        @media screen and (min-width: 767px){
+            left: calc(50% + 50px);
+            bottom: calc(50% + 120px);
+        }
+        @media screen and (max-width: 767px){
+            left: calc(50% + 80px);
+            bottom: calc(50% - 350px);
+        }
     }
     &:nth-child(3){
-        left: calc(50% + 500px);
-        top: calc(50% + 50px);
+        @media screen and (min-width: 767px){
+            left: calc(50% + 500px);
+            top: calc(50% + 50px);
+        }
+        @media screen and (max-width: 767px){
+            display: none;
+        }
     }
+
 
     &:hover{
         .home-section11-img{
@@ -424,4 +516,3 @@
         filter: opacity(0%);
     }
 }
-
