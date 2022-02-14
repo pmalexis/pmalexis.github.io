@@ -1,4 +1,22 @@
-if( document.querySelector('.bootcamp-sectionhero') ) {
+if( document.querySelector('.bootcamp-section1') ) {
+    let sectionhero = document.querySelectorAll('.bootcamp-sectionhero');
+    sectionhero.forEach(function (section) {
+        let iframe = section.querySelector('iframe');
+        let player = new Vimeo.Player(iframe);
+        section.querySelector('.bootcamp-sectionhero_play').addEventListener('click', function () {
+            setTimeout(function(){
+                section.querySelector('.bootcamp-sectionhero_containervideo').classList.add('style-video');
+                player.play();
+            }, 100);
+        });
+        section.querySelector('.bootcamp-sectionhero_containervideo').addEventListener('click', function () {
+            if (this.classList.contains('style-video')) {
+                this.classList.remove('style-video');
+                player.pause();
+            }
+        });     
+    });
+    
     let section3Quote = document.querySelectorAll('.bootcamp-section3');
     section3Quote.forEach(function (section) {
         let click = true;
@@ -193,5 +211,30 @@ if( document.querySelector('.bootcamp-sectionhero') ) {
             });
         }
         init();
+    });
+
+    let section6 = document.querySelectorAll('.home-section6');
+    section6.forEach(function (section) {
+        section.querySelectorAll('.home-section6-el').forEach(function (el, index) {
+            if(index != 0) {
+                let iframe = el.querySelector('iframe');
+                let player = new Vimeo.Player(iframe);
+                el.querySelector('.home-section6-elbtn').addEventListener('click', function () {
+                    setTimeout(function(){
+                        section.querySelectorAll('.home-section6-el').forEach(function (r) {
+                            r.classList.remove('style-video');
+                        });
+                        el.classList.add('style-video');
+                        player.play();
+                    }, 100);
+                });
+                el.addEventListener('click', function () {
+                    if (this.classList.contains('style-video')) {
+                        this.classList.remove('style-video');
+                        player.pause();
+                    }
+                });
+            }
+        });  
     });
 }

@@ -1,3 +1,46 @@
+.bootcamp-sectionhero{
+    .bootcamp-sectionhero_containerbtn,
+    .bootcamp-sectionhero_play {
+        transition: all 0.25s ease;
+        &:hover {
+            opacity: .7;
+        }
+    }
+    .bootcamp-sectionhero_containervideo {
+        overflow: hidden;
+
+        img:nth-child(1) {
+            position: relative;
+            z-index: 1;
+        }
+        .bootcamp-sectionhero_play {
+            z-index: 2;
+        }
+
+        &.style-video {
+            img,
+            .bootcamp-sectionhero_play {
+                opacity: 0;
+            }
+        }
+    }
+    .w-embed {
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
 .bootcamp-section3 {
     .bootcamp-section3_quote {
         opacity: 1;
