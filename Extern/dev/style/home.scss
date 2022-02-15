@@ -172,21 +172,22 @@
 /* SECTION 2 */
 .home-section2{
     position: relative;
-    padding-top: 375px !important;
     transition: background-color 0.5s ease;
     &.style-black{
         background-color: #000;
     }
 }
-.home-section2-sticky{
-    position: sticky;
-    top: 50vh;
-    transform: translateY(-50%);
-    overflow: hidden;
+@media screen and (min-width: 767px){
+    .home-section2-sticky{
+        position: sticky;
+        top: 200px;
+        overflow: hidden;
+    }
+    .home-section2-slider{
+        display: inline-flex;
+    }
 }
-.home-section2-slider{
-    display: inline-flex;
-}
+
 .home-section2-containerlist{
     @media screen and (max-width: 767px){
         width: calc(100% + 50px);
