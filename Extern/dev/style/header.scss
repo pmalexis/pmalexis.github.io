@@ -25,9 +25,18 @@
 
 
 @media screen and (max-width: 767px){
+    .header-home{
+        .header-line{
+            background-color: #FFF;
+        }
+        &.style-scroll{
+            .header-line{
+                background-color: #000;
+            }
+        }
+    }
     .sticky-nav{
-        position: relative;
-
+        position: fixed;
         &.style-open{
             .header-containerflex{
                 visibility: visible;
@@ -74,6 +83,7 @@
         position: absolute;
         background-color: #000;
         transition: all 0.25s ease;
+        mix-blend-mode: difference;
         &:nth-child(1){
             top: 0px;
         }
@@ -91,5 +101,9 @@
         &:not(:last-child){
             margin-bottom: 20px;
         }
+    }
+
+    .paragraph-small{
+        color: #000;
     }
 }
