@@ -8,13 +8,18 @@
         mix-blend-mode: difference;
     }
 
-    &.style-scroll {
+    &.style-scroll,
+    &.style-white {
         background-color: #FFFFFF;
         .header-linkel {
             .paragraph-small{
                 color: #000000;
             }
         }
+    }
+
+    &.style-scroll {
+        border-bottom: 1px solid #CACBCF;
     }
 }
 

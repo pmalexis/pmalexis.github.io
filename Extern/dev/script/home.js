@@ -1,12 +1,4 @@
 if( document.querySelector('.home-sectionhero') ) {
-    window.addEventListener("scroll", function() {
-        if ( window.scrollY >= 1 ) {
-            document.querySelector('#nav').classList.add('style-scroll');
-        } else {
-            document.querySelector('#nav').classList.remove('style-scroll');
-        };
-    });
-    
     let section1Tabs = document.querySelectorAll('.home-section1-tab');
     let section1Bar = document.querySelector('.home-section1-slider');
     section1Tabs.forEach(function (section1Tab, index) {
