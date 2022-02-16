@@ -4,3 +4,10 @@
         background-color: #DD3500;
     }
 }
+
+.button-small{
+    transition: opacity 0.25s ease;
+    &:hover{
+        opacity: 0.8;
+    }
+}

@@ -51,25 +51,19 @@
         &.style-none {
             display: none;
         }
-    } 
+    }
 } 
-
-.bootcamp-section6 {
-    .bootcamp-section6_listcard {
-        opacity: 1;
-        transition: opacity 0.5s ease;
-        &.style-hide {
-            opacity: 0;
-        }
-        &.style-none {
-            display: none;
-        }
-    } 
-}
+.bootcamp-section3_btn{
+    transition: opacity 0.25s ease;
+    &:hover{
+        opacity: 0.8;
+    }
+} 
 
 .bootcamp-section4 {
     .bootcamp-section4_tab {
         &.style-active {
+            border-color: #CACBCF;
             .bootcamp-section4_tabicngrey {
                 display: none;
             }
@@ -95,4 +89,23 @@
             }
         }
     } 
+}
+
+.bootcamp-section6 {
+    .bootcamp-section6_listcard {
+        opacity: 1;
+        transition: opacity 0.5s ease;
+        &.style-hide {
+            opacity: 0;
+        }
+        &.style-none {
+            display: none;
+        }
+    } 
+}
+.bootcamp-section6_btn{
+    transition: opacity 0.25s ease;
+    &:hover{
+        opacity: 0.8;
+    }
 }
