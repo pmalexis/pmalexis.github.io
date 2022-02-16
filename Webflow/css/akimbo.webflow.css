@@ -89,7 +89,7 @@ ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 200px;
+  padding-top: 150px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -739,7 +739,7 @@ ul {
   display: flex;
   width: 300px;
   height: 80vh;
-  padding-bottom: 80px;
+  padding-bottom: 124px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -3175,6 +3175,7 @@ ul {
   bottom: 24px;
   width: 79px;
   height: 79px;
+  cursor: pointer;
 }
 
 .postuler-section-1 {
@@ -3807,6 +3808,15 @@ ul {
 .bootcamp-section5_title_logo {
   margin-right: 5px;
   margin-left: 5px;
+}
+
+.home-section6-elbtnplay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 @media screen and (max-width: 991px) {
@@ -4607,6 +4617,7 @@ ul {
     left: auto;
     top: 50px;
     right: 45%;
+    display: none;
   }
 
   .home-section4-arrowimg {
@@ -4758,6 +4769,10 @@ ul {
     font-size: 48px;
   }
 
+  .h1.colorprimary-2 {
+    font-size: 34px;
+  }
+
   .paragraph-normal.colorprimary-3.home-section11-paragraph {
     width: 100%;
   }
@@ -4856,6 +4871,21 @@ ul {
     right: 0%;
   }
 
+  .bootcamp-sectionhero_containervideo {
+    height: 195px;
+  }
+
+  .bootcamp-section1.colorprimary-2-bg {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .bootcamp-section1_title {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
   .bootcamp-section3_quote {
     display: block;
   }
@@ -4937,6 +4967,11 @@ ul {
   .bootcamp-section6_card {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  .bootcamp-sectionhero_logo {
+    max-height: 43px;
+    max-width: 37%;
   }
 
   .sticky-nav {

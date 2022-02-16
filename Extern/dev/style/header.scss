@@ -1,5 +1,6 @@
 .sticky-nav {
     transition: all 0.25s ease;
+    border-bottom: 1px solid transparent;
     .header-logo,
     .header-link {
         transition: all 0.25s ease;
@@ -19,7 +20,7 @@
     }
 
     &.style-scroll {
-        border-bottom: 1px solid #CACBCF;
+        border-color: #F0F0F0;
     }
 }
 

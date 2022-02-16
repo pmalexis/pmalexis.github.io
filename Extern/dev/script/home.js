@@ -30,36 +30,35 @@ if( document.querySelector('.home-sectionhero') ) {
         });
     });
 
-    function slideHorizontalScroll(){
+    
 
-        let section = document.querySelector('.home-section2');
-        let wrapper = document.querySelector('.home-section2 .wrapper');
-        let container = document.querySelector('.home-section2-container');
-        let slider = document.querySelector('.home-section2-slider');
-        function initHeight() {
-            let a = (window.innerWidth - 1200);
-            container.style.height = (slider.clientWidth - a) + 'px';
-            
-        }
-        initHeight();
-        
-        window.addEventListener('scroll', function() {
+    function sliderHorizontalScroll(){
+        let section = document.querySelector('.home-section2-container');
+        let containerEl = document.querySelector('.home-section2-slider');
+        let el = document.querySelector('.home-section2-item:nth-child(1)');
+        let grid = document.querySelector('.home-section2 .wrapper-12');
+    
+        /* INIT HEIGHT SECTION */
+        section.style.height = (containerEl.clientWidth - (grid.clientWidth - el.clientHeight) + 'px');
+    
+        /* ON SCROLL */
+        window.addEventListener('scroll', function(){
             let a = section.offsetTop;
-            let b = (window.innerHeight / 100) * 25; 
-            let c = section.clientHeight;
-            let d = window.pageYOffset;
-            let e = window.clientWidth;
-
-            let scrollValueTop =  d - a + b; 
-            if(scrollValueTop > 0 && scrollValueTop < 1200){
-                slider.style.transform = "translateX(-" + scrollValueTop + "px" + ")";
-            }
-        });
-
-        
+            let b = 200;
+            let c = window.pageYOffset;
+            let scrollValue = c - a + b;
+    
+            if(scrollValue > 0 && scrollValue <= (containerEl.clientWidth - grid.clientWidth)){
+                containerEl.style.transform = "translateX(-" + scrollValue + "px" + ")";
+            } else if (scrollValue < 0){
+                containerEl.style.transform = "translateX(0px)";
+            } else if (scrollValue > (containerEl.clientWidth - grid.clientWidth)){
+                containerEl.style.transform = "translateX(calc(-100% + " + grid.clientWidth + 'px))';
+            };
+        })
     }
     if (window.matchMedia("(min-width: 767px)").matches) {
-        slideHorizontalScroll();
+        sliderHorizontalScroll();
     };
 
     let section7Btn = document.querySelectorAll('.home-section7-containerbtn');
@@ -167,11 +166,6 @@ if( document.querySelector('.home-sectionhero') ) {
         section7QuoteActive.classList.add('style-show'); 
         section9TabActive.click();
 
-        setTimeout(function(){
-            sectionHero.querySelectorAll('.home-sectionhero-elimg').forEach(function (elImg) {
-                elImg.classList.add('style-ready');
-            });
-        }, 1200);
 
         /* SCROLL ANM */
         let scrollpos = window.scrollY;
