@@ -1,0 +1,21 @@
+
+@media screen and (min-width: 767px){
+    .blogmain-sectionlist_sticky{
+        position: sticky;
+        top: 200px;
+        overflow: hidden;
+    }
+    .blogmain-sectionlist_slider{
+        display: inline-flex;
+    }
+}
+
+.blogmain-sectionlist_containerel{
+    @media screen and (max-width: 767px){
+        width: calc(100% + 50px);
+        margin-left: -25px;
+        padding: 0px 25px 0px 25px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
