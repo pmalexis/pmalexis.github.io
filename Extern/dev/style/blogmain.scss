@@ -1,4 +1,10 @@
-
+.blogmain-sectionhero{
+    .extra-1{
+        &:before{
+            content: initial;
+        }
+    }
+}
 @media screen and (min-width: 767px){
     .blogmain-sectionlist_sticky{
         position: sticky;
