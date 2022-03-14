@@ -32,3 +32,14 @@ if( document.querySelector('.blogmain-sectionarticles') ) {
 
     
 }
+
+if( document.querySelector('.home-sectionhero') ) {
+    document.querySelector('.jetboost-dropdown').classList.add('style-hidden');
+    document.querySelector('.home-sectionhero form:first-child input').setAttribute('autocomplete', 'off');
+
+    document.querySelector('.home-sectionhero form:first-child input').addEventListener("keyup", event => {
+        if( document.querySelector('.home-sectionhero form:first-child input').value.length > 0 ) {
+            document.querySelector('.jetboost-dropdown').classList.remove('style-hidden');
+        } else document.querySelector('.jetboost-dropdown').classList.add('style-hidden');
+    });
+}

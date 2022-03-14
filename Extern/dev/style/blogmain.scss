@@ -25,3 +25,11 @@
         -webkit-overflow-scrolling: touch;
     }
 }
+
+.home-sectionhero {
+    .jetboost-dropdown {
+        &.style-hidden {
+            display: none;
+        }
+    }
+}
