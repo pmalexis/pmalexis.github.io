@@ -802,6 +802,7 @@ blockquote {
 }
 
 .extra-1.colorprimary-1.home-sectionhero-extra {
+  overflow: hidden;
   margin-top: -30px;
   -webkit-transform: none;
   -ms-transform: none;
@@ -849,6 +850,10 @@ blockquote {
   padding-top: 327px;
   padding-bottom: 325px;
   background-color: #000;
+}
+
+.home-sectionhero.blogmain-sectionhero {
+  display: block;
 }
 
 .home-sectionhero-containertext {
@@ -945,6 +950,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: #dd3401;
 }
 
 .button-normal.w--current {
@@ -4578,6 +4584,10 @@ blockquote {
   flex: 1;
 }
 
+.blogmain-sectionlist {
+  margin-bottom: 130px;
+}
+
 .blogmain-sectionvideo {
   padding-top: 100px;
   padding-bottom: 80px;
@@ -4728,6 +4738,295 @@ blockquote {
 
 .blogmain-sectionlist_elwrapper {
   margin-right: 16px;
+}
+
+.jetboost-list-wrapper-x8om {
+  position: absolute;
+  display: block;
+  width: 364px;
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 hsla(0, 0%, 100%, 0.2);
+}
+
+.jetboost-list-search-input-x8om {
+  width: 364px;
+  height: 50px;
+  border: 1px solid #444549;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.25);
+  font-family: Inter, sans-serif;
+  color: #f0f0f0;
+  font-size: 16px;
+  white-space: normal;
+}
+
+.jetboost-list-wrapper-brem {
+  display: block;
+}
+
+.image-14 {
+  width: 100px;
+  height: 100px;
+}
+
+.search {
+  display: block;
+}
+
+.search-result-wrapper {
+  display: none;
+}
+
+.form-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.form-block.search_form {
+  position: relative;
+  display: inline-block;
+  margin-top: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.success-message {
+  position: absolute;
+  z-index: -1;
+  width: 0px;
+  height: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  opacity: 0;
+  font-size: 0px;
+}
+
+.error-message {
+  position: absolute;
+  z-index: -1;
+  width: 0px;
+  height: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  background-color: transparent;
+  opacity: 0;
+  font-size: 0px;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+
+.search_button {
+  width: 50px;
+  height: 50px;
+  margin-left: 8px;
+  background-color: #f43b00;
+  background-image: url('../images/object-search.1-1.svg');
+  background-position: 50% 50%;
+  background-size: 14px 14px;
+  background-repeat: no-repeat;
+}
+
+.jetboost_items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  border-bottom: 1px solid #f0f0f0;
+  color: #444549;
+  text-align: left;
+}
+
+.collection-list {
+  margin-left: 0px;
+}
+
+.collection-list.jetboost_list {
+  margin-right: 26px;
+  margin-bottom: 0px;
+  margin-left: 16px;
+}
+
+.jetboost_links {
+  color: #444549;
+  text-decoration: none;
+}
+
+.home-sectionhero-containerform {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 18px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.error-message-2 {
+  position: absolute;
+  z-index: -1;
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.success-message-2 {
+  position: absolute;
+  z-index: -1;
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.text-field {
+  position: absolute;
+  z-index: -1;
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.container-11 {
+  display: none;
+}
+
+.search-sectionresults {
+  margin-top: 138px;
+}
+
+.search-sectionresults-collectionwrapper {
+  display: block;
+}
+
+.search-sectionresults-collectionlist {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.search-sectionresults-collectionitem {
+  display: block;
+  width: 384px;
+  margin-right: 8px;
+  margin-bottom: 37px;
+  margin-left: 8px;
+  padding-right: 0px;
+  padding-left: 0px;
+  border: 1px solid #cacbcf;
+}
+
+.search-sectionresults-collectionimg {
+  width: 100%;
+  height: 230px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.search-sectionresults-collectionparagraph {
+  margin-top: 16px;
+}
+
+.search-sectionresults-collectioncontainertext {
+  padding: 40px;
+}
+
+.div-1---candidature-envoy-e {
+  margin-top: 38px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.body-2 {
+  margin-top: 86px;
+}
+
+.paragraph-5 {
+  margin-top: 24px;
+}
+
+.div-2---candidature-envoy-e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 36px;
+  margin-right: 15%;
+  margin-left: 15%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-3---candidature-envoy-e {
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 @media screen and (max-width: 991px) {
