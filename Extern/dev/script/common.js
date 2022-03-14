@@ -3,3 +3,4 @@
 // @codekit-prepend 'home.js'
 // @codekit-prepend 'bootcamp.js'
 // @codekit-prepend 'formation.js'
+// @codekit-prepend 'blogmain.js'
