@@ -1,4 +1,4 @@
-if( document.querySelector('.bootcamp-section1') ) {
+if( document.querySelector('.bootcamp-section3') ) {
     document.querySelector('#nav').classList.add('style-scroll');
 
     
