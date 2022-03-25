@@ -1,4 +1,10 @@
 if( document.querySelector('.blogmain-sectionarticles') ) {
+
+    window.addEventListener('load', function() {
+        let sectionHero = document.querySelector('.home-sectionhero');
+        sectionHero.classList.add('style-ready');
+    });
+    
     function sliderHorizontalScroll(){
         let section = document.querySelector('.blogmain-sectionlist');
         let containerEl = document.querySelector('.blogmain-sectionlist_slider');

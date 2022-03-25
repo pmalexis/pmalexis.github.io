@@ -5,27 +5,35 @@ if( document.querySelector('.qui-sectionhero') ) {
         let nav = s + " " + n;
         let pos = 0;
         let maxPos = document.querySelectorAll(containerEl).length - 1;
+        
+        if( maxPos <= 1) {
+            document.querySelector(nav + " div:first-child").style.cursor = "default";
+            document.querySelector(nav + " div:last-child").style.cursor = "default";
+            document.querySelector(nav + " div:first-child").style.opacity = "0.2";
+            document.querySelector(nav + " div:last-child").style.opacity = "0.2";
+        } else {
     
-        document.querySelector(nav + " div:first-child").addEventListener('click', function(){
-            pos--;
-            if(pos < 0) pos = maxPos;
-            init(pos);
-        });
-    
-        document.querySelector(nav + " div:last-child").addEventListener('click', function(){
-            pos++;
-            if(pos > maxPos) pos = 0;
-            init(pos);
-        });
-    
-        function init(pos) {
-            document.querySelectorAll(containerEl).forEach(function(el, i) {
-                if(i != pos) {
-                    el.style.display = "none";
-                } else el.style.display = "";
+            document.querySelector(nav + " div:first-child").addEventListener('click', function(){
+                pos--;
+                if(pos < 0) pos = maxPos;
+                init(pos);
             });
+        
+            document.querySelector(nav + " div:last-child").addEventListener('click', function(){
+                pos++;
+                if(pos > maxPos) pos = 0;
+                init(pos);
+            });
+        
+            function init(pos) {
+                document.querySelectorAll(containerEl).forEach(function(el, i) {
+                    if(i != pos) {
+                        el.style.display = "none";
+                    } else el.style.display = "";
+                });
+            }
+            init(0);
         }
-        init(0);
     }
     quisectionimg(".qui-sectionimg", ".qui-sectionimg_wrapperel", ".qui-sectionimg_containerbtn");
 
