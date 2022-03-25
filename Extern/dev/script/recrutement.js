@@ -29,4 +29,22 @@ if( document.querySelector('.recrutement-section7') ) {
     });
     let section7QuoteActive = document.querySelector('.home-section7-quote:nth-child(1)');
     section7QuoteActive.classList.add('style-show'); 
+
+    let sectionhero = document.querySelectorAll('.bootcamp-sectionhero');
+    sectionhero.forEach(function (section) {
+        let iframe = section.querySelector('iframe');
+        let player = new Vimeo.Player(iframe);
+        section.querySelector('.bootcamp-sectionhero_play').addEventListener('click', function () {
+            setTimeout(function(){
+                section.querySelector('.bootcamp-sectionhero_containervideo').classList.add('style-video');
+                player.play();
+            }, 100);
+        });
+        section.querySelector('.bootcamp-sectionhero_containervideo').addEventListener('click', function () {
+            if (this.classList.contains('style-video')) {
+                this.classList.remove('style-video');
+                player.pause();
+            }
+        });     
+    });
 }
