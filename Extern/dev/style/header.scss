@@ -12,6 +12,12 @@
     &.style-scroll,
     &.style-white {
         background-color: #FFFFFF;
+        .header-dropdown_toggle{
+            .paragraph-small,
+            .header-dropdown_toggleicn{
+                color: #000000;
+            }
+        }
         .header-linkel {
             .paragraph-small{
                 color: #000000;
@@ -44,6 +50,7 @@
                 opacity: 1;
             }
             .header-line{
+                background-color: #000;
                 &:nth-child(1){
                     transform: translateY(4px) rotate(45deg);
                 }
@@ -94,8 +101,13 @@
     }
     .header-containerlinks{
         flex-direction: column;
+        align-items: flex-start;
         width: 100%;
-        
+        & > * {
+            &:not(:last-child){
+                margin-bottom: 15px;
+            }
+        }
     }
     .header-linkel{
         margin-right: 0px;
@@ -107,4 +119,48 @@
     .paragraph-small{
         color: #000;
     }
+
+    .header-dropdown{
+        width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .header-dropdown_toggle{
+        .paragraph-small{
+            font-family: 'Linotype avenir next georgian', sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    }
+    .header-linkel{
+        .paragraph-small{
+            font-family: 'Linotype avenir next georgian', sans-serif;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    }
+    .dropdown-list{
+        padding-left: 0px;
+        box-shadow: none;
+        position: initial;
+        width: 100%;
+        background-color: transparent;
+        &.w--open{
+            border-bottom: 1px solid #CACBCF;
+            margin-bottom: 10px;
+        }
+        .header-dropdown_el{
+            background-position: 0px 50% !important;
+            padding-left: 36px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+        }
+        .colorprimary-3{
+            color: #000;
+        }
+    }
+
+
+    
+
 }
