@@ -1,4 +1,5 @@
-if( document.querySelector('.home-section1') ) {
+if( document.querySelector('.js_extern-home') ) {
+
     let section1Tabs = document.querySelectorAll('.home-section1-tab');
     let section1Bar = document.querySelector('.home-section1-slider');
     section1Tabs.forEach(function (section1Tab, index) {
@@ -29,8 +30,6 @@ if( document.querySelector('.home-section1') ) {
             
         });
     });
-
-    
 
     function sliderHorizontalScroll(){
         let section = document.querySelector('.home-section2-container');
@@ -83,7 +82,6 @@ if( document.querySelector('.home-section1') ) {
                 quote.classList.remove('style-show');
             });
 
-            console.log(section7Count);
             document.querySelector('.home-section7-quote:nth-child(' + section7Count + ')').classList.add('style-show'); 
         });
     });
@@ -185,6 +183,7 @@ if( document.querySelector('.home-section1') ) {
             }
         });
     });
+    
 }
 
 

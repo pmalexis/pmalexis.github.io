@@ -1,4 +1,4 @@
-if( document.querySelector('.formation-section1') ) {
+if( document.querySelector('.js_extern-formation') ) {
     document.querySelector('#nav').classList.add('style-scroll');
     
     let sectionhero = document.querySelectorAll('.bootcamp-sectionhero');
@@ -65,4 +65,5 @@ if( document.querySelector('.formation-section1') ) {
             });
         });
     });
+    
 }

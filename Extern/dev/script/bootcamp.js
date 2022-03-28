@@ -1,6 +1,5 @@
-if( document.querySelector('.bootcamp-section3') ) {
+if( document.querySelector('.js_extern-bootcamp') ) {
     document.querySelector('#nav').classList.add('style-scroll');
-
     
     let sectionhero = document.querySelectorAll('.bootcamp-sectionhero');
     sectionhero.forEach(function (section) {
@@ -240,4 +239,5 @@ if( document.querySelector('.bootcamp-section3') ) {
             }
         });  
     });
+
 }
