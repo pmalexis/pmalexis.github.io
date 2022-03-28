@@ -1,4 +1,4 @@
-if( document.querySelector('.qui-sectionhero') ) {
+if( document.querySelector('.js_extern-who') ) {
 
     function quisectionimg(s, c, n) {
         let containerEl = s + " " + c;

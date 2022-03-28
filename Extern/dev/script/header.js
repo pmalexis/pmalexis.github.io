@@ -1,4 +1,4 @@
-if( document.querySelector('.header-containerburger') ) {
+if( document.querySelector('.js_extern-header') ) {
     let headerburger = document.querySelector('.header-containerburger');
     let header = document.querySelector('.sticky-nav');
 

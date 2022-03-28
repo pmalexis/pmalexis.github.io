@@ -1,4 +1,4 @@
-if( document.querySelector('.recrutement-section7') ) {
+if( document.querySelector('.js_extern-recrutement') ) {
     sliderCommon(".qui-sectioncommunaute", ".qui-sectioncommunaute_el", ".qui-sectioncommunaute_containerbtn", 4);
 
     let section7Btn = document.querySelectorAll('.home-section7-containerbtn');
@@ -23,7 +23,6 @@ if( document.querySelector('.recrutement-section7') ) {
                 quote.classList.remove('style-show');
             });
 
-            console.log(section7Count);
             document.querySelector('.home-section7-quote:nth-child(' + section7Count + ')').classList.add('style-show'); 
         });
     });
@@ -47,4 +46,5 @@ if( document.querySelector('.recrutement-section7') ) {
             }
         });     
     });
+
 }

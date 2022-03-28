@@ -40,6 +40,19 @@ function sliderCommon(s, c, n, m) {
 // @codekit-prepend 'home.js'
 // @codekit-prepend 'bootcamp.js'
 // @codekit-prepend 'formation.js'
-// @codekit-prepend 'blogmain.js'
 // @codekit-prepend 'who.js'
 // @codekit-prepend 'recrutement.js'
+if( document.querySelector('.js_extern-blogmain') ) {
+    // @codekit-prepend 'blogmain.js'
+}
+
+if( document.querySelector('.jetboost-dropdown') ) {
+    document.querySelector('.jetboost-dropdown').classList.add('style-hidden');
+    document.querySelector('.home-sectionhero form:first-child input').setAttribute('autocomplete', 'off');
+
+    document.querySelector('.home-sectionhero form:first-child input').addEventListener("keyup", event => {
+        if( document.querySelector('.home-sectionhero form:first-child input').value.length > 0 ) {
+            document.querySelector('.jetboost-dropdown').classList.remove('style-hidden');
+        } else document.querySelector('.jetboost-dropdown').classList.add('style-hidden');
+    });
+}
