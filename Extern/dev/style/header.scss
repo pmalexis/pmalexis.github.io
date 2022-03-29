@@ -44,6 +44,9 @@
     }
     .sticky-nav{
         position: fixed;
+        .paragraph-small{
+            color: #000;
+        }
         &.style-open{
             .header-containerflex{
                 visibility: visible;
@@ -114,10 +117,6 @@
         &:not(:last-child){
             margin-bottom: 20px;
         }
-    }
-
-    .paragraph-small{
-        color: #000;
     }
 
     .header-dropdown{
