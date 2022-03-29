@@ -6,7 +6,7 @@ if( document.querySelector('.js_extern-who') ) {
         let pos = 0;
         let maxPos = document.querySelectorAll(containerEl).length - 1;
         
-        if( maxPos <= 1) {
+        if( maxPos <= 0) {
             document.querySelector(nav + " div:first-child").style.cursor = "default";
             document.querySelector(nav + " div:last-child").style.cursor = "default";
             document.querySelector(nav + " div:first-child").style.opacity = "0.2";
