@@ -27,7 +27,16 @@
 
     &.style-scroll {
         border-color: #F0F0F0;
+        .dropdown-list{
+            background-color: #FFF;
+        }
+        .header-dropdown_el{
+            color: #000;
+        }
     }
+}
+.w-dropdown-link.w--current{
+    color: #f43b00;
 }
 
 

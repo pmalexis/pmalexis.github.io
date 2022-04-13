@@ -312,12 +312,28 @@
       "oAP" : "\/Webflow\/detail_category.html",
       "oF" : 0
     },
+    "\/Webflow\/detail_fiches-metiers.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/detail_fiches-metiers.html",
+      "oF" : 0
+    },
     "\/Webflow\/detail_post.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/Webflow\/detail_post.html",
+      "oF" : 0
+    },
+    "\/Webflow\/fiche-metier\/business-developer-missions-salaire.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Webflow\/fiche-metier\/business-developer-missions-salaire.html",
       "oF" : 0
     },
     "\/Webflow\/fonts\/Jen-Wagner-Co.---Palmer-Lake-Print-Regular.otf" : {
@@ -3922,19 +3938,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Webflow\/images\/Vector.png" : {
-      "ft" : 32768,
-      "iS" : 1679,
-      "oA" : 0,
-      "oAP" : "\/Webflow\/images\/Vector.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/Webflow\/images\/Vector.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -4227,12 +4230,12 @@
       "oAP" : "\/Webflow\/recrutement-business-developers.html",
       "oF" : 0
     },
-    "\/Webflow\/recrutement.html" : {
+    "\/Webflow\/recrutementv2.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/Webflow\/recrutement.html",
+      "oAP" : "\/Webflow\/recrutementv2.html",
       "oF" : 0
     },
     "\/Webflow\/search.html" : {
