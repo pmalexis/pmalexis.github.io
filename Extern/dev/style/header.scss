@@ -32,6 +32,9 @@
         }
         .header-dropdown_el{
             color: #000;
+            &:hover{
+                color: #f43b00 !important;
+            }
         }
     }
 }
