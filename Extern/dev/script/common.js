@@ -42,6 +42,7 @@ function sliderCommon(s, c, n, m) {
 // @codekit-prepend 'formation.js'
 // @codekit-prepend 'who.js'
 // @codekit-prepend 'recrutement.js'
+// @codekit-prepend 'search.js'
 if( document.querySelector('.js_extern-blogmain') ) {
     // @codekit-prepend 'blogmain.js'
 }
